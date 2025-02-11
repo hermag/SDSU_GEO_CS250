@@ -48,3 +48,9 @@
 #    print(i)
 #it will print numbers from 1 to 10
 #details about range() function can be seen here https://www.geeksforgeeks.org/python-range-function/
+#regarding the while loops
+#while (True statement):
+#    write the statement 
+#    change the statement that needs to be checked
+
+
