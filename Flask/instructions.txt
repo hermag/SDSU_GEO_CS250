@@ -1,0 +1,4 @@
+#In order to run the Flask application without need of restart, use the following command, 
+#where app1.py is the code of the flask application
+flask --app app1.py --debug run
+#here app1.py is the file name where the python code is located
