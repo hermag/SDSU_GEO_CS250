@@ -11,7 +11,7 @@ def index():
     some_names=["John", "Jane", "Jim", "Jill"]
     return render_template('index1.html', names=some_names)
 
-@app.route('/<name>.<int:age>')
+@app.route('/<name><int:age>')
 def user(name, age):
     return render_template('user2.html', name=name, age=age)
 
