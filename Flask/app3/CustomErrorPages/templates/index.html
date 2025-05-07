@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Error Pages Demo{% endblock %}
+
+{% block content %}
+<h1 style="text-align: center; margin-bottom: 30px;">Flask Custom Error Pages Demo</h1>
+<div style="text-align: center;">
+    <p>Click the links below to see different error pages in action:</p>
+    <div style="margin-top: 20px;">
+        <a href="{{ url_for('trigger_404') }}" class="home-link" style="background: #e74c3c;">Trigger 404</a>
+        <a href="{{ url_for('trigger_500') }}" class="home-link" style="background: #e67e22;">Trigger 500</a>
+        <a href="{{ url_for('trigger_403') }}" class="home-link" style="background: #2ecc71;">Trigger 403</a>
+    </div>
+</div>
+{% endblock %} 

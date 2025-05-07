@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}404 - Page Not Found{% endblock %}
+
+{% block content %}
+<div class="error-code">404</div>
+<div class="error-message">
+    Oops! The page you're looking for seems to have vanished into thin air.
+</div>
+<div style="text-align: center;">
+    <a href="{{ url_for('index') }}" class="home-link">Return Home</a>
+</div>
+{% endblock %} 

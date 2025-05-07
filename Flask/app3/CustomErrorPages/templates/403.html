@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}403 - Forbidden{% endblock %}
+
+{% block content %}
+<div class="error-code">403</div>
+<div class="error-message">
+    Access Denied. You don't have permission to view this page.
+</div>
+<div style="text-align: center;">
+    <a href="{{ url_for('index') }}" class="home-link">Return Home</a>
+</div>
+{% endblock %} 
